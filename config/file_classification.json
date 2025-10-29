@@ -1,0 +1,38 @@
+{
+  "total_files": 8,
+  "total_classifications": 4,
+  "classifications": {
+    "A_H8(1)8888.jpg": "A_H",
+    "A_H8(2)0000.jpg": "A_H",
+    "A_H8(3)2222.jpg": "A_H",
+    "AB7(1).jpg": "AB",
+    "AB7(2).jpg": "AB",
+    "2211(1)8888.jpg": "2211",
+    "2211(2)0000.jpg": "2211",
+    "XYZ_ABC456(1).jpg": "XYZ_ABC"
+  },
+  "groups": {
+    "A_H": [
+      "A_H8(1)8888.jpg",
+      "A_H8(2)0000.jpg",
+      "A_H8(3)2222.jpg"
+    ],
+    "AB": [
+      "AB7(1).jpg",
+      "AB7(2).jpg"
+    ],
+    "2211": [
+      "2211(1)8888.jpg",
+      "2211(2)0000.jpg"
+    ],
+    "XYZ_ABC": [
+      "XYZ_ABC456(1).jpg"
+    ]
+  },
+  "statistics": {
+    "A_H": 3,
+    "AB": 2,
+    "2211": 2,
+    "XYZ_ABC": 1
+  }
+}

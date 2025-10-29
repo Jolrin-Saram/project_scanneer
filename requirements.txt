@@ -1,0 +1,25 @@
+# Auto-generated requirements.txt
+# Generated based on project scan and system detection
+# CUDA Version: 13.0     |
+# GPU Available: True
+
+# GPU-enabled packages
+# Uncomment the appropriate line for your CUDA version:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+matplotlib
+numpy
+opencv-python
+openpyxl
+pandas
+pillow
+pyyaml
+requests
+roboflow
+scikit-learn
+scipy
+seaborn
+tqdm
+ultralytics>=8.0.0

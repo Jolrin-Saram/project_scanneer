@@ -1,0 +1,35 @@
+# YOLO Detection Analysis Tool - Requirements Template
+# This file is a template. The actual requirements.txt is generated automatically
+# by the setup process based on your system configuration.
+
+# Core Dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+Pillow>=8.0.0
+
+# YOLO and Deep Learning
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Data Processing
+pandas>=1.3.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.62.0
+pyyaml>=5.4.0
+requests>=2.26.0
+
+# Excel Export
+openpyxl>=3.7.0
+
+# Additional Tools (Optional)
+Pillow-SIMD>=7.2.0  # Faster image processing
+packaging>=21.0

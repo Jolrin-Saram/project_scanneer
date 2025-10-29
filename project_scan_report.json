@@ -1,0 +1,52 @@
+{
+  "scan_root": "D:\\project\\data-tools",
+  "total_projects": 1,
+  "projects": [
+    {
+      "name": "data-tools",
+      "path": "D:\\project\\data-tools",
+      "type": "requirements.txt",
+      "dependencies": [
+        "matplotlib",
+        "numpy",
+        "opencv-python",
+        "openpyxl",
+        "pandas",
+        "pillow",
+        "pyyaml",
+        "requests",
+        "roboflow",
+        "scikit-learn",
+        "scipy",
+        "seaborn",
+        "tqdm",
+        "ultralytics"
+      ],
+      "python_files": [
+        "main.py",
+        "setup.py"
+      ],
+      "config_files": [
+        "main.py",
+        "requirements.txt",
+        "setup.py"
+      ]
+    }
+  ],
+  "dependencies": {
+    "matplotlib": 1,
+    "numpy": 1,
+    "opencv-python": 1,
+    "openpyxl": 1,
+    "pandas": 1,
+    "pillow": 1,
+    "pyyaml": 1,
+    "requests": 1,
+    "roboflow": 1,
+    "scikit-learn": 1,
+    "scipy": 1,
+    "seaborn": 1,
+    "tqdm": 1,
+    "ultralytics": 1
+  }
+}

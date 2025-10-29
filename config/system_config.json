@@ -1,0 +1,39 @@
+{
+  "platform": {
+    "system": "Windows",
+    "release": "10",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel"
+  },
+  "cpu": {
+    "name": "Intel(R) Core(TM) i5-9500F CPU @ 3.00GHz",
+    "cores": 6,
+    "threads": 6
+  },
+  "gpu": {
+    "has_nvidia_gpu": true,
+    "gpu_name": "NVIDIA GeForce GTX 1050 Ti",
+    "total_memory": "4096 MiB",
+    "available_memory": "3203 MiB",
+    "compute_capability": "6.1"
+  },
+  "cuda": {
+    "installed": true,
+    "version": "13.0     |",
+    "path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2"
+  },
+  "cudnn": {
+    "installed": true,
+    "version": "Unknown",
+    "path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\include"
+  },
+  "pytorch": {
+    "installed": true,
+    "version": "2.3.1+cu118",
+    "cuda_support": true
+  },
+  "memory": {
+    "total_gb": 7.95,
+    "available_gb": 1.35
+  }
+}
