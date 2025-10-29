@@ -1,0 +1,24 @@
+{
+  "app_name": "Project Scanner GUI",
+  "version": "1.0.0",
+  "description": "Portable Python Project Scanner with GUI",
+  "author": "Development Team",
+  "portable": true,
+  "features": [
+    "GUI Interface",
+    "Folder Selection",
+    "Recursive Scanning",
+    "JSON Report Generation",
+    "Configuration Auto-Save"
+  ],
+  "requirements": [
+    "Windows 7 or later",
+    "No Python installation required (portable exe)"
+  ],
+  "usage": [
+    "1. Extract to any location (USB, External HDD, etc)",
+    "2. Double-click run_scanner.bat",
+    "3. Select folder to scan",
+    "4. Click 'Scan Start' button"
+  ]
+}
