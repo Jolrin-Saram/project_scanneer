@@ -1,0 +1,94 @@
+포터블 GUI 프로젝트 스캐너 - 빌드 및 배포 가이드
+
+====================================================
+STEP 1: 환경 준비
+====================================================
+
+1. Python 확인
+   python --version
+   (Python 3.8 이상 필요)
+
+2. 디렉토리 이동
+   cd D:\project\data-tools
+
+3. 패키지 설치
+   pip install -r requirements.txt
+
+====================================================
+STEP 2: 애플리케이션 빌드
+====================================================
+
+자동 빌드 (권장):
+   build_portable.bat
+
+수동 빌드:
+   pyinstaller --name="ProjectScanner" --onefile ^
+       --windowed --icon=scanner_icon.ico ^
+       --add-data="src/project_scanner.py;src" ^
+       --distpath=portable_build/bin ^
+       src/gui_scanner.py
+
+====================================================
+STEP 3: 빌드 결과 확인
+====================================================
+
+확인 명령:
+   dir portable_build\bin
+
+결과:
+   ProjectScanner.exe (60~80MB)
+
+====================================================
+STEP 4: 배포 패키지 준비
+====================================================
+
+   prepare_portable.bat
+
+생성됨:
+   ProjectScanner_Portable_v1.0/
+   ├── bin/ProjectScanner.exe
+   ├── config/
+   ├── outputs/
+   ├── run_scanner.bat
+   └── README_PORTABLE.md
+
+====================================================
+STEP 5: 테스트 및 배포
+====================================================
+
+로컬 테스트:
+   run_scanner.bat
+
+USB/외장하드 배포:
+   1. ProjectScanner_Portable_v1.0/ 전체 복사
+   2. USB나 외장 하드에 붙여넣기
+   3. 다른 컴퓨터에서 run_scanner.bat 실행
+
+====================================================
+트러블슈팅
+====================================================
+
+오류: "pyinstaller not found"
+해결: pip install pyinstaller
+
+오류: "ModuleNotFoundError: No module named 'PySimpleGUI'"
+해결: pip install PySimpleGUI
+
+오류: exe 파일이 생기지 않음
+1. 명령 프롬프트 오류 확인
+2. 필요한 패키지 설치
+3. build_portable.bat 다시 실행
+
+====================================================
+최종 사용자 가이드
+====================================================
+
+1. ProjectScanner_Portable_v1.0 폴더 받기
+2. run_scanner.bat 더블클릭
+3. 스캔할 폴더 선택
+4. "스캔 시작" 클릭
+5. 결과 확인: outputs/ 폴더 또는 "리포트 열기" 버튼
+
+====================================================
+완료! 포터블 GUI 프로젝트 스캐너가 준비되었습니다.
+====================================================
